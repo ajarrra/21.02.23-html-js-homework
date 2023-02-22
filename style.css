@@ -89,27 +89,26 @@
     background-color: #ed9828;
     margin-bottom: 35px;
     border: 2px solid #432616;
-    padding:  25px 25px;
+    padding: 25px 25px;
     margin: 25px;
-   
+
 }
 
-table{
+table {
     border: 1px solid red;
     padding: 20px 20px;
     margin: 10px;
 }
 
-th{
+th {
     border: 1px solid rgb(200, 51, 51);
     margin: 20px;
     padding: 10px 10px;
 }
 
-td{
+td {
     border: 1px solid rgb(29, 27, 27);
     margin: 20px;
     padding: 10px 10px;
     border-radius: 10px;
 }
-
