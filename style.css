@@ -93,3 +93,15 @@
     margin: 25px;
    
 }
+
+table{
+    border: 1px solid red;
+    padding: 20px 20px;
+    margin: 10px;
+}
+
+th{
+    border: 1px solid rgb(200, 51, 51);
+    margin: 20px;
+    padding: 10px 10px;
+}
