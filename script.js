@@ -20,5 +20,11 @@ document.body.prepend(example2);//заполняет
 for (i = 0; i < hello.length; i++) {
     let listItem = document.createElement("button");
     listItem.textContent = hello[i];
+    listItem.style.color = "aliceblue"
+    listItem.style.padding= "10px 15px" 
+    listItem.style.margin = "10px"
+    listItem.style.backgroundColor = "rgb(152, 130, 130)"
+    listItem.style.borderRadius = "30px"
+
     example2.append(listItem)
 }
