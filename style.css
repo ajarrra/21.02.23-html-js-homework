@@ -93,3 +93,14 @@ body {
     flex-grow: 0;
     flex-shrink: 0;
 }
+
+.card {
+    box-shadow: 15px 10px 15px #432616;
+    background-color: #3C280D;
+    margin-bottom: 35px;
+    border-radius: 6px;
+    transition: all 350ms ease-in;
+    border: 2px solid #432616;
+    margin: 15px;
+   
+}
