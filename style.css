@@ -86,12 +86,10 @@
 }
 
 .card {
-    
     background-color: #ed9828;
     margin-bottom: 35px;
-   
-    
     border: 2px solid #432616;
-    
+    padding:  25px 25px;
+    margin: 25px;
    
 }

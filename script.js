@@ -1,4 +1,9 @@
 //1. У нас есть массив ["Banana", "Cola", "Cat"] вывести их на страницу в виде карточек.
+let example3 = document.querySelector(".card");
+for (let i = 0; i < example3.length; i++) {
+    let card = example3[i];
+   
+}
 
 
 
