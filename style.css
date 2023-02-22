@@ -105,3 +105,11 @@ th{
     margin: 20px;
     padding: 10px 10px;
 }
+
+td{
+    border: 1px solid rgb(29, 27, 27);
+    margin: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+

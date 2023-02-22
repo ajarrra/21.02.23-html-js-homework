@@ -41,14 +41,24 @@ let num = [["1", "2", "3", "4", "5", "6"], ["7", "8", "9", "10", "11", "12"], ["
 let example4 = document.createElement("table")
 document.body.append(example4);
 for (i = 0; i < num.length; i++) {
-    let listItem = document.createElement("th");
+    let listItem = document.createElement("td");
     listItem.textContent = num[i];
     example4.append(listItem)
-
 }
-
 
 
 
 //У нас есть массив [["Table", "2", "3", "4", "5"], ["2", "4", "6", "8", "10"], ["3", "6", "9", "12", "15"],
 // ["4", "8", "12", "16", "20"], ["5", "10", "15", "20", "25"]] вывести этот массив в виде таблицы.
+
+let numm =[["Table", "2", "3", "4", "5"], ["2", "4", "6", "8", "10"], ["3", "6", "9", "12", "15"],
+ ["4", "8", "12", "16", "20"], ["5", "10", "15", "20", "25"]] ;
+let example5 = document.createElement("table")
+document.body.append(example5);
+for (i = 0; i < numm.length; i++) {
+    let listItem = document.createElement("th");
+    listItem.textContent = numm[i];
+    example5.append(listItem)
+}
+
+
